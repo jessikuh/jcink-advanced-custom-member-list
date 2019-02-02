@@ -29,7 +29,7 @@ Additionally, I am not the world's best at explanations so if at any time someth
 
 ## Installation
 
-Download and host a copy of [memberlist-adv.min.js](https://raw.githubusercontent.com/jessikuh/jcink-custom-member-list/master/src/js/memberlist.min.js), and place it before the closing body tag (`</body>`) of your Board Wrapper.
+Download and host a copy of [memberlist-adv.min.js](https://raw.githubusercontent.com/jessikuh/jcink-advanced-custom-member-list/master/src/js/memberlist-adv.min.js), and place it before the closing body tag (`</body>`) of your Board Wrapper.
 
 ```html
 <script src="/memberlist-adv.min.js"></script>
