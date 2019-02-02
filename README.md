@@ -167,7 +167,7 @@ From this...
 to this!
 ![alt text](./src/images/jcink-custom-member-list-adv-after.jpg "Member List After Customization")
 
-Below is an outline of your code.
+Below is an outline of setting up the code.
 
 All CSS would be placed in your style sheet.
 
