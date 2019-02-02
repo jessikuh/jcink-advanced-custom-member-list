@@ -81,6 +81,22 @@ In the case of .member-search-link, this is useful for hiding any groups you don
 }
 ```
 
+Below is an example of the HTML structure.
+
+```html
+<div class="member-list">
+  <form class="members-form">
+    YOUR WRAPPER
+      <div class="members">
+        <div id="GROUP-NAME" class="member-container">
+          YOUR MEMBER HTML & VARIABLES
+        </div>
+      </div>
+    END YOUR WRAPPER
+  </form>
+</div>
+```
+
 ### Custom Wrapper
 
 With the Advanced Custom Member List script, you can apply a custom wrapper around your member list. This allows you to add in more styling as well as a search input field, the ability to filter by groups via links or dropdown, and a clear search link. You also initialize the members in your wrapper so that the code knows the correct place to display members.
