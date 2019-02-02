@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-js-accordions",
+  "name": "jcink-adv-custom-memberlist",
   "version": "1.0.0",
-  "description": "Vanilla JS and basic CSS for multiple use on one page accordions.",
+  "description": "Manipulate JcInk's default /index.php?act=Members to match your site's theme using user's data.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
