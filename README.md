@@ -47,7 +47,7 @@ Now begins the fun: creating your member list! I recommend having a the HTML & C
 
 ### CSS
 
-Since I recommend coding your CSS and HTML first, you need to know about some of the default classes that are used in this code. This code should be 100% customizable, so if you're stumped on why something isn't styling correctly, please reach out. I may have overlooked or forgotten some of the default classes below.
+Since I recommend coding your CSS and HTML first, you need to know about some of the default classes that are used. This code should be 100% customizable, so if you're stumped on why something isn't styling correctly, please reach out. I may have overlooked or forgotten some of the default classes below.
 
 |Class|What it styles|
 |-|-|
