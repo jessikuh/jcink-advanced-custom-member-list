@@ -43,7 +43,7 @@ You may also use a hosted copy for free. The only caveat is that this file will 
 
 ## Usage
 
-Now begins the fun: creating your member list! I recommend creating the CSS and HTML first, then diving into applying the variables. There are default variables and then there are profiles you must manually set up in the HTML Templates -> Main Profile.
+Now begins the fun: creating your member list! I recommend having a the HTML & CSS put together first, then diving into applying the variables. There are default variables and then there are profiles you must manually set up in the HTML Templates -> Main Profile.
 
 ### CSS
 
