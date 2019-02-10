@@ -14,11 +14,4 @@ function javascript() {
       .pipe(gulp.dest('src/js'));
 }
 
-function watch() {
-  javascript();
-
-  gulp.watch('src/js/**/*.js', javascript);
-}
-
-exports.watch = watch;
 exports.javascript = javascript;
