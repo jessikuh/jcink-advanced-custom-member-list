@@ -35,7 +35,7 @@ Download and host a copy of [memberlist-adv.min.js](https://raw.githubuserconten
 <script src="/memberlist-adv.min.js"></script>
 ```
 
-You may also use a hosted copy for free. The only caveat is that this file will likely receive the latest updates and could break your code. You can keep up with any changes by visiting the [changelog](./CHANGELOG.md).
+You may also use a hosted copy for free. The only caveat is that this file will likely receive the latest updates and could break your code. You can keep up with any changes by visiting the [changelog](./CHANGELOG.md). Any breaking updates (and sometimes small updates) will be shared on my [tumblr with the tag jcink-memberlist-updates](https://jessikuhcodes.tumblr.com/tagged/jcink-memberlist-updates) prior to being updated here.
 
 ```html
 <script src="https://files.jcink.net/uploads/jessikuh/javascript/memberlist_adv_min.js"></script>
@@ -53,7 +53,7 @@ Since I recommend coding your CSS and HTML first, you need to know about some of
 |-|-|
 |.member-list|The container of your custom wrapper and member list.|
 |.members-form|This identifies the form and shouldn't need to be styled.|
-|.members|The container of all the members.|
+|.custom-members|The container of all the members.|
 |.member-container|The container of each individual member.|
 |.member-link|The link of the member's profile.|
 |.member-search-input|The input field.|
@@ -68,11 +68,11 @@ Each .member-container and .member-search-link contains a lowercase ID of the me
 In the case of .member-search-link, this is useful for hiding any groups you don't want or need available for search. You may also hide any member from a member group you don't want visible in your member list. If you want to show these hidden members when a search is performed, that is when the .member-search-applied class comes in handy. Below is an example of hiding a specific group from your member list and from the search, but returning them if their username contains a searched value.
 
 ```css
-.members #admin {
+.custom-members #admin {
   display: none;
 }
 
-.member-search-applied .members #admin {
+.member-search-applied .custom-members #admin {
   display: block;
 }
 
