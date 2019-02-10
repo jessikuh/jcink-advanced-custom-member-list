@@ -183,11 +183,11 @@ memberList = () => {
   });
 };
 
-if (window.location.href.indexOf('index.php?act=Members') > -1 || window.location.href.indexOf('index.php?&act=Members') > -1) {
+if (window.location.href.indexOf('?act=Members') > -1 || window.location.href.indexOf('?&act=Members') > -1) {
   memberList();
   document.querySelector('form.members-form').className = 'members-form';
 }
 
-if (window.location.href.indexOf('index.php?act=Members&s=') > -1) {
+if (window.location.href.indexOf('?act=Members&s=') > -1) {
   document.querySelector('form.members-form').className += ' member-search-applied';
 }
