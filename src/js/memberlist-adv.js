@@ -22,7 +22,7 @@ memberList = () => {
 
   // Create a new container for the members to live in
   memberListElement.className = 'member-list';
-  membersElement.innerHTML = '<div class="members"></div>';
+  membersElement.innerHTML = '<div class="custom-members"></div>';
 
   searchField.innerHTML = '<div class="member-search-input"><input type="text" size="25" name="name" value="" placeholder="Search"></div>';
 
@@ -178,7 +178,7 @@ memberList = () => {
         userDiv.innerHTML += `${customMemberList.replace(memberReplaceValues, (matched) => {
           return memberObj[matched];
         })}`; // replace customized vars with data
-        document.querySelector('.members').appendChild(userDiv);
+        document.querySelector('.custom-members').appendChild(userDiv);
       });
   });
 };
