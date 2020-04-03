@@ -2,6 +2,10 @@
 
 Manipulate JcInk's default /index.php?act=Members to match your site's theme using user's data.
 
+## Deprecated
+
+JcInk has now added Memberlist HTML Templates, rendering this code unnecessary. [Check this awesome feature out here!](https://jcink.com/main/wiki/jfh-skinning-default-templates#member_list_header)
+
 ## Table of Contents
 
 - [JcInk Advanced Custom Member List](#jcink-advanced-custom-member-list)
